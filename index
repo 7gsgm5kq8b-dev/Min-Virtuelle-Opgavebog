@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Min Virtuelle Opgavebog — support</title>
+<style>
+  :root{
+    --paper:#FCF8F0; --card:#FFFFFF; --ink:#282623; --muted:#5F5A51;
+    --rule:#E6DECF; --accent:#D17B4F; --leaf:#4A8C63;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);
+    font:17px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased}
+  .wrap{max-width:720px;margin:0 auto;padding:0 24px 80px}
+  header{padding:56px 0 30px;border-bottom:1px solid var(--rule);margin-bottom:36px}
+  .kicker{font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;
+    color:var(--muted);margin:0 0 12px}
+  h1{font-family:Georgia,"Times New Roman",serif;font-weight:700;
+    font-size:clamp(2rem,5vw,2.7rem);line-height:1.12;margin:0 0 14px;text-wrap:balance}
+  h2{font-family:Georgia,serif;font-size:1.35rem;margin:40px 0 10px;text-wrap:balance}
+  h3{font-size:1.05rem;margin:26px 0 4px}
+  p{margin:0 0 14px}
+  .lead{font-size:1.12rem;color:var(--muted);margin:0}
+  ul{padding-left:20px;margin:0 0 14px}
+  li{margin-bottom:6px}
+  a{color:var(--accent)}
+  .card{background:var(--card);border:1px solid var(--rule);border-radius:14px;
+    padding:20px 22px;margin:26px 0}
+  .card h2{margin-top:0}
+  nav{margin-top:22px;font-size:15px}
+  nav a{margin-right:18px;text-decoration:none;font-weight:600}
+  nav a:hover{text-decoration:underline}
+  footer{margin-top:56px;padding-top:22px;border-top:1px solid var(--rule);
+    font-size:14px;color:var(--muted)}
+  code{background:#F1EADC;padding:2px 6px;border-radius:4px;font-size:.9em}
+  @media(prefers-color-scheme:dark){
+    :root{--paper:#17150F;--card:#1F1C16;--ink:#EFE8DA;--muted:#9D9384;
+      --rule:#332D24;--accent:#E0A077;--leaf:#7FBF97}
+    code{background:#262119}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <p class="kicker">Support</p>
+  <h1>Min Virtuelle Opgavebog</h1>
+  <p class="lead">En opgavebog til iPad for børn på 4–7 år. 50 sider, sat sammen
+  tilfældigt, med oplæsning på dansk.</p>
+  <nav>
+    <a href="index.html">Support</a>
+    <a href="privatliv.html">Privatlivspolitik</a>
+  </nav>
+</header>
+
+<div class="card">
+  <h2>Kontakt</h2>
+  <p>Skriv til <a href="mailto:DIN-EMAIL@EKSEMPEL.DK">DIN-EMAIL@EKSEMPEL.DK</a>.
+  Jeg svarer så hurtigt jeg kan — det er en app lavet af én person.</p>
+</div>
+
+<h2>Ofte stillede spørgsmål</h2>
+
+<h3>Hvordan vælger jeg den rigtige sværhedsgrad?</h3>
+<p>Tryk <em>Lav ny bog</em> og vælg 4–5, 5–6 eller 6–7 år. Bogen bliver bygget til
+netop det niveau — samme opgavetyper, men flere ting at holde styr på, jo ældre
+barnet er. Du kan altid lave en ny bog i en anden alder.</p>
+
+<h3>Hvor mange sider er gratis?</h3>
+<p>De første 100 sider følger med, hvilket svarer til to hele bøger. Derefter låser
+ét enkelt køb resten op, én gang for altid.</p>
+
+<h3>Hvordan låser jeg hele bogen op?</h3>
+<p>Tryk <em>Til forældre</em> på forsiden. Der står, hvor mange gratis sider der er
+tilbage, og der er en knap til at låse op. Før købet skal du løse et regnestykke —
+det er en forældre-port, så et barn ikke kan købe ved et uheld.</p>
+
+<h3>Jeg har skiftet iPad. Hvordan får jeg mit køb med?</h3>
+<p>Tryk <em>Til forældre</em> og derefter <em>Gendan tidligere køb</em>. Købet
+følger din Apple-konto, så det virker på alle enheder, der bruger den samme konto.
+Du skal ikke betale igen.</p>
+
+<h3>Bogen læser ikke op</h3>
+<p>Tjek tre ting: at lydkontakten på siden af iPad'en ikke står på lydløs, at
+lydstyrken er skruet op, og at <em>Læs opgaven op automatisk</em> er slået til under
+<em>Til forældre</em>. Du kan altid trykke på højttalerknappen på siden for at høre
+opgaven igen.</p>
+
+<h3>Barnet kan ikke tegne stregen færdig</h3>
+<p>Stregen skal følges hele vejen, men fingeren må godt løftes undervejs — det
+tæller stadig. Er en side for svær, kan man springe den over med pilen og komme
+videre. Er det ofte, er bogen sandsynligvis lavet til en for høj alder; lav en ny i
+en yngre aldersgruppe.</p>
+
+<h3>Hvordan sletter jeg alt, appen har gemt?</h3>
+<p>Slet appen fra iPad'en. Så forsvinder bogen og fremgangen. Dit køb bliver hos
+Apple og kan altid gendannes.</p>
+
+<h3>Jeg har fundet en fejl</h3>
+<p>Skriv til mig med hvilken opgavetype det drejer sig om, og hvilken alder bogen er
+lavet til. Et skærmbillede hjælper meget.</p>
+
+<footer>
+  <p>Min Virtuelle Opgavebog · udviklet i Danmark ·
+  <a href="privatliv.html">Privatlivspolitik</a></p>
+</footer>
+
+</div>
+</body>
+</html>
